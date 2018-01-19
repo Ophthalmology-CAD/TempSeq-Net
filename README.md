@@ -1,4 +1,4 @@
-## Usage Instructions for LSTM:
+## Usage Instructions for TempSeq-Net:
 * Clone this repository somewhere, let's refer to it as $ROOT
 ```
 git clone https://github.com/Ophthalmology-CAD/LSTM.git
