@@ -14,25 +14,25 @@ make pycaffe
 ```
 * Download the pre-trained model. 
 
-    alexnet model:（https://people.eecs.berkeley.edu/~lisa_anne/single_frame_all_layers_hyb_RGB_iter_5000.caffemodel）, put it in $ROOT/examples/AlexNet
+    alexnet model:（https://people.eecs.berkeley.edu/~lisa_anne/single_frame_all_layers_hyb_RGB_iter_5000.caffemodel）, put it in $ROOT/examples/LSTM-AlexNet
     
-    googlenet model:（https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet）, put it in $ROOT/examples/GoogLeNet
+    googlenet model:（https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet）, put it in $ROOT/examples/LSTM-GoogLeNet
 
-    ResNet-50 model:（https://github.com/KaimingHe/deep-residual-networks#models）, put it in $ROOT/examples/ResNet
-* Run the run_alexnet_lstm_RGB.sh in in the terminal window to train the alexnet model
+    ResNet-50 model:（https://github.com/KaimingHe/deep-residual-networks#models）, put it in $ROOT/examples/LSTM-ResNet
+* Run the run_lstm_alexnet_RGB.sh in in the terminal window to train the lstm-alexnet model
 ```
-cd $ROOT/examples/AlexNet
-sh run_alexnet_lstm_RGB.sh
+cd $ROOT/examples/LSTM-AlexNet
+sh run_lstm_alexnet_RGB.sh
 ```
-* Run the run_googlenet_lstm_RGB.sh in the terminal window to train the googlenet model
+* Run the run_lstm_googlenet_RGB.sh in the terminal window to train the lstm-googlenet model
 ```
-cd $ROOT/examples/GoogLeNet
-sh run_googlenet_lstm_RGB.sh
+cd $ROOT/examples/LSTM-GoogLeNet
+sh run_lstm_googlenet_RGB.sh
 ```
-* Run the run_resnet_lstm_RGB.sh in the terminal window to train the ResNet model
+* Run the run_lstm_resnet_RGB.sh in the terminal window to train the lstm-resNet model
 ```
-cd $ROOT/examples/ResNet
-sh run_resnet_lstm_RGB.sh
+cd $ROOT/examples/LSTM-ResNet
+sh run_lstm_resnet_RGB.sh
 ```
 ### Test
 
