@@ -21,18 +21,18 @@ make pycaffe
     ResNet-50 model:（https://github.com/KaimingHe/deep-residual-networks#models）, put it in $ROOT/examples/ResNet
 * Run the run_alexnet_lstm_RGB.sh in in the terminal window to train the alexnet model
 ```
-cd $ROOT
-sh examples/AlexNet/run_alexnet_lstm_RGB.sh
+cd $ROOT/examples/AlexNet
+sh run_alexnet_lstm_RGB.sh
 ```
 * Run the run_googlenet_lstm_RGB.sh in the terminal window to train the googlenet model
 ```
-cd $ROOT
-sh examples/GoogLeNet/run_googlenet_lstm_RGB.sh
+cd $ROOT/examples/GoogLeNet
+sh run_googlenet_lstm_RGB.sh
 ```
 * Run the run_resnet_lstm_RGB.sh in the terminal window to train the ResNet model
 ```
-cd $ROOT
-sh examples/ResNet/run_resnet_lstm_RGB.sh
+cd $ROOT/examples/ResNet
+sh run_resnet_lstm_RGB.sh
 ```
 ### Test
 
