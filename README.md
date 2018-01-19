@@ -16,9 +16,9 @@ make pycaffe
 
     alexnet model:（https://people.eecs.berkeley.edu/~lisa_anne/single_frame_all_layers_hyb_RGB_iter_5000.caffemodel）, put it in $ROOT/examples/AlexNet
     
-    googlenet model:（https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet）, put it in $ROOT/examples/GoogLeNet
+    googlenet model:（https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet）, put it in $ROOT/examples/GoogLeNet
 
-    ResNet-50 model:（https://github.com/KaimingHe/deep-residual-networks#models）, put it in $ROOT/examples/ResNet
+    ResNet-50 model:（https://github.com/KaimingHe/deep-residual-networks#models）, put it in $ROOT/examples/ResNet
 * Run the run_alexnet_lstm_RGB.sh in in the terminal window to train the alexnet model
 ```
 cd $ROOT
