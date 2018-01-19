@@ -14,11 +14,25 @@ make pycaffe
 ```
 * Download the pre-trained model. 
 
-    pre-trained model:（https://people.eecs.berkeley.edu/~lisa_anne/single_frame_all_layers_hyb_RGB_iter_5000.caffemodel）, put it in $ROOT/examples
-* Run the 5-6run_lstm_RGB.sh in in the terminal window to train the model
+    alexnet model:（https://people.eecs.berkeley.edu/~lisa_anne/single_frame_all_layers_hyb_RGB_iter_5000.caffemodel）, put it in $ROOT/examples/AlexNet
+    
+    googlenet model:（https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet）, put it in $ROOT/examples/GoogLeNet
+
+    ResNet-50 model:（https://github.com/KaimingHe/deep-residual-networks#models）, put it in $ROOT/examples/ResNet
+* Run the run_alexnet_lstm_RGB.sh in in the terminal window to train the alexnet model
 ```
-cd $ROOT/examples
-sh 5-6run_lstm_RGB.sh
+cd $ROOT
+sh examples/AlexNet/run_alexnet_lstm_RGB.sh
+```
+* Run the run_googlenet_lstm_RGB.sh in the terminal window to train the googlenet model
+```
+cd $ROOT
+sh examples/GoogLeNet/run_googlenet_lstm_RGB.sh
+```
+* Run the run_resnet_lstm_RGB.sh in the terminal window to train the ResNet model
+```
+cd $ROOT
+sh examples/ResNet/run_resnet_lstm_RGB.sh
 ```
 ### Test
 
