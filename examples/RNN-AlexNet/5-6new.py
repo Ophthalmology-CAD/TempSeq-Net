@@ -18,7 +18,7 @@ import skimage.io
 import copy
 
 flow_frames = 'flow_images/'
-RGB_frames = '/home/shiyan/lisa-caffe-public-lstm_video_deploy/examples/LRCN_activity_recognition/crop_images/'
+RGB_frames = '/home/shiyan/lisa-caffe-public-lstm_video_deploy/examples/train_images/'
 test_frames = 5
 train_frames = 5
 test_buffer = 1
